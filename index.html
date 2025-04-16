@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MyInfo is a sleek dashboard to view your web and network info such as IP, User-Agent, location, headers, WHOIS, and more!">
+  <meta name="keywords" content="IP Address, User-Agent, Headers, WHOIS, Blacklist Check, Web Info">
+  <meta name="author" content="Your Name">
+  <title>MyInfo - View Your Web & Network Information</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta property="og:title" content="MyInfo Dashboard">
+  <meta property="og:description" content="View your web & network info like IP, User-Agent, headers, location, WHOIS, and more.">
+  <meta property="og:image" content="https://www.example.com/og-image.jpg">
+</head>
+
+<body>
+  <header>
+    <h1>MyInfo - Your Web & Network Information</h1>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About MyInfo</h2>
+      <p>MyInfo is a dashboard that allows you to quickly view your web and network information, including your IP address, User-Agent, server headers, and more. You can also access tools like WHOIS, Blacklist checks, and other network-related services.</p>
+    </section>
+
+    <section id="data">
+      <div id="ip-card">
+        <h3>IP Address:</h3>
+        <p id="ip">Loading...</p>
+        <p><a href="https://www.whatismyip.com/ip-address-lookup/" target="_blank">More about your IP</a></p>
+      </div>
+
+      <div id="location-card">
+        <h3>Location:</h3>
+        <p id="location">Loading...</p>
+      </div>
+
+      <div id="hostname-card">
+        <h3>Hostname:</h3>
+        <p id="hostname">Loading...</p>
+        <p><a href="https://www.whatismyhostname.com/" target="_blank">More about your Hostname</a></p>
+      </div>
+
+      <div id="ua-card">
+        <h3>User-Agent:</h3>
+        <p id="ua">Loading...</p>
+        <p><a href="https://www.whatismybrowser.com/" target="_blank">Check your browser details</a></p>
+      </div>
+
+      <div id="headers-card">
+        <h3>Server Headers:</h3>
+        <pre id="headers">Loading...</pre>
+      </div>
+
+      <div id="whois-card">
+        <h3>WHOIS Info:</h3>
+        <p id="whois">WHOIS requires server or API key</p>
+        <p><a href="https://whois.domaintools.com/" target="_blank">Check WHOIS</a></p>
+      </div>
+
+      <div id="blacklist-card">
+        <h3>Blacklist Status:</h3>
+        <p id="blacklist">Blacklist status unavailable (API required)</p>
+        <p><a href="https://www.abuseipdb.com/" target="_blank">Check Blacklist</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Buggz - &copy; 2025</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
